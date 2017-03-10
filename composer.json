@@ -1,0 +1,23 @@
+{
+    "name": "rev/hb-game-bundle",
+    "description": "HBPlay Game bundle for symfony",
+    "type": "symfony-bundle",
+    "authors": {
+        "name": "Reverze",
+        "email": "hawkmedia24@gmail.com"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "HBGameBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3-dev"
+        }
+    }
+}
