@@ -1,0 +1,19 @@
+services:
+#    hb_game.example:
+#        class: HBGameBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+    hbgame.launcher:
+        class: HBGameBundle\Core\Launcher
+        arguments: [ %hbgame.binpath%, %hbgame.binfile% ]
+    
+    hbgame.player.current:
+        class: HBGameBundle\User\Player
+        arguments: [ true ] #creates player object from globals
+        
+    hbgame.user.current:
+        class: HBGameBundle\User\GlobalUser
+        
+    hbgame.player.current:
+        class : HBGameBundle\User\Player
+        
+     
