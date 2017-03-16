@@ -1,11 +1,11 @@
 {
-    "name": "rev/hb-game-bundle",
+    "name": "rev/hbgame-bundle",
     "description": "HBPlay Game bundle for symfony",
     "type": "symfony-bundle",
-    "authors": {
+    "authors": [{
         "name": "Reverze",
         "email": "hawkmedia24@gmail.com"
-    },
+    }],
     "minimum-stability": "dev",
     "require": {
         
